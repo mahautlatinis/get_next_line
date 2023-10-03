@@ -11,4 +11,4 @@ OBJS_BONUS		= ${SRC_B:.c=.o}
 NAME			= get_next_line
 
 all:		${NAME}
-			./tester/GNL_lover.sh
+			cd tester; ./GNL_lover.sh
