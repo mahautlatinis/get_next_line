@@ -1,9 +1,11 @@
 # get_next_line
 Get_next_line - 2021 (Common Core)
 
-- Actual Status : finished.
-- Result        : 115% (maximum grade at validation time.
+- Actual Status : validated.
+- Result        : 115% (26/02/2021).
 
 ![Alt text](/gnl.png?raw=true "Tripouille test OK")
 
-Disclaimer : this project has not been updated since its validation (26/02/2021).
+2023: The project requirements have been updated since (different function definition expected).
+I updated the code to fit the "norminette v3", moved the files and added some github workflows to test it automatically.
+Make sure you organize your repository as expected by 42.
