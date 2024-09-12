@@ -5,6 +5,8 @@ Get_next_line - 2021 (Common Core)
 - Actual Status : validated.
 - Result : 115% (26/02/2021).
 
+[Watch](https://youtu.be/pvmtqcQu4J0)
+
 <img width="438" alt="Capture d’écran 2023-10-03 à 17 00 30" src="https://github.com/malatinipro/get_next_line/assets/77189438/8d743cc8-2c51-4f36-9bca-25284b625a7c">
 
 ```sh
