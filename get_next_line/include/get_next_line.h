@@ -17,6 +17,12 @@
 # define DONE 0
 # define BUFFER_SIZE 10
 
+# ifdef __GNU__
+#  define PATH_MAX 4096
+#  define MAXPATHLEN 4096
+#  define OPEN_MAX 256 /* We define a reasonable limit.  */
+# endif
+
 # include <stdlib.h>
 # include <limits.h>
 # include <unistd.h>
