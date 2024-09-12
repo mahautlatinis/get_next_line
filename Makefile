@@ -23,7 +23,6 @@ OBJS_BONUS		= ${SRC_B:.c=.o}
 NAME			= get_next_line
 
 all:			${NAME}
-				cd tester; ./GNL_lover.sh
 
 clean:
 				@ ${RM} ${OBJS} ${OBJSBONUS}
@@ -32,5 +31,11 @@ clean:
 fclean: 		clean
 
 re: 			fclean all
+
+norminette:
+				norminette ./get_next_line
+
+test:
+				cd ./tester && make && ./GNL_lover.sh
 
 .PHONY:			bonus all clean fclean re
