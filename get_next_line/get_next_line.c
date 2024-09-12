@@ -85,7 +85,7 @@ int	get_next_line(int fd, char **line)
 	int			b_read;
 	char		*buffer;
 
-	if (fd < 0 || BUFFER_SIZE < 1 || fd > OPEN_MAX || !line)
+	if (fd < 0 || BUFFER_SIZE < 1 || fd > 10240 || !line)
 		return (ERROR);
 	buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
 	if (!buffer)

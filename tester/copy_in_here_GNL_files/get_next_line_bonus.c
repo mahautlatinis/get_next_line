@@ -79,11 +79,11 @@ char	*ft_prep_s(char *s)
 
 int		get_next_line(int fd, char **line)
 {
-	static char *s[OPEN_MAX];
+	static char *s[10240];
 	int			b_read;
 	char		*buffer;
 
-	if (fd < 0 || BUFFER_SIZE < 1 || fd > OPEN_MAX || !line)
+	if (fd < 0 || BUFFER_SIZE < 1 || fd > 10240 || !line)
 		return (ERROR);
 	if (!(buffer = (char *)malloc(sizeof(char) * (BUFFER_SIZE + 1))))
 		return (ERROR);
